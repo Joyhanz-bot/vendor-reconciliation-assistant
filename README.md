@@ -6,9 +6,9 @@
 
 [🌐 在线 Demo（待补充）](#在线-demo) · [💻 GitHub Repository](https://github.com/Joyhanz-bot/vendor-reconciliation-assistant)
 
-> **截图占位**：当前仓库尚未包含正式页面截图，未生成假截图。请将主页面截图放入 `screenshots/overview.png`。
->
-> <img src="screenshots/overview.png" width="900" alt="供应商对账助手主页面截图（待补充）">
+![供应商对账概览](screenshots/overview.png)
+
+对账概览展示内部系统账单和多家供应商账单进入逻辑校验、双向匹配与异常整理流程。
 
 ## 1. 项目简介
 
@@ -41,6 +41,8 @@
         ↓
 导出对账结果
 ```
+
+在实际结算准备阶段，确认后的数据还可以通过 Python 按“供应商 × 部门”维度拆分金额及明细，统一生成 Excel 后分别发送相关方核对；这属于业务流程中的批量处理步骤，不代表当前 Streamlit 页面新增了一个结算页面。
 
 ## 4. 核心功能
 
@@ -96,13 +98,13 @@
 
 ## 7. Demo 截图
 
-请将正式截图放入 `screenshots/` 后替换以下占位文件：
+![供应商异常汇总](screenshots/vendor_summary.png)
 
-| 截图 | 说明 |
-| --- | --- |
-| `screenshots/overview.png` | 对账概览：展示供应商数量、异常数量和待沟通事项。 |
-| `screenshots/exception_review.png` | 异常复核：按供应商查看问题类型、核心原因和建议处理。 |
-| `screenshots/vendor_followup.png` | 供应商沟通清单：直接查看内部记录、供应商记录和建议确认方。 |
+供应商汇总按供应商整理逻辑异常、双向缺失、字段差异和待沟通事项，是财务逐家沟通处理的主要入口。
+
+![异常复核与结果导出](screenshots/exception_review.png)
+
+异常复核展示具体字段差异、核心原因、建议处理和结果导出，帮助财务在确认口径后进入结算准备。
 
 ## 在线 Demo
 
