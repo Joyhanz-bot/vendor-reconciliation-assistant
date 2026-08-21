@@ -4,7 +4,7 @@
 
 通过 Python 对供应商账单进行逻辑校验，并与内部系统账单双向匹配，自动识别账单逻辑异常、缺失记录及字段级差异。
 
-[🌐 在线 Demo（待补充）](#在线-demo) · [💻 GitHub Repository](https://github.com/Joyhanz-bot/vendor-reconciliation-assistant)
+[🌐 在线体验 Demo](https://vendor-reconciliation-assistant.streamlit.app/) · [💻 GitHub Repository](https://github.com/Joyhanz-bot/vendor-reconciliation-assistant)
 
 ![供应商对账概览](screenshots/overview.png)
 
@@ -108,7 +108,7 @@
 
 ## 在线 Demo
 
-> 当前未在仓库部署记录或 README 中发现可验证的 Streamlit 公网地址。请部署后将链接补充到顶部“在线 Demo”入口。
+> [在线体验 Demo](https://vendor-reconciliation-assistant.streamlit.app/)：打开供应商对账与异常复核助手的 Streamlit 在线页面。
 
 ## 8. 项目结构
 
